@@ -1,0 +1,205 @@
+/*** BODY ***/
+
+body {
+  font-family: 'Manrope', sans-serif;
+  color: #c7d690;
+  background-color: #05151a;
+}
+
+a {
+  text-decoration: none
+}
+
+/*** GRID ***/
+
+.full-width {
+  width: 1200px;
+  padding: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/*** HEADER ***/
+
+header {
+  height: 800px;
+  background: url('../img/hero.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14pt;
+    color: #4a0e1c;
+    padding-left: 40px;
+}
+
+nav a:hover {
+  color: #05151a;
+}
+
+h1 {
+  font-size: 26pt;
+  color: #c49075;
+  margin-top: 0;
+  margin-left: 30px;
+  padding-top: 250px;
+}
+
+header p {
+  font-size: 14pt;
+  color: #ebebeb;
+  font-weight: 600;
+  width: 300px;
+  margin-left: 30px;
+}
+
+span {
+  color: #c7d690;
+}
+
+/*** ABOUT ***/
+
+#about {
+  height: 450px;
+  color: #ebebeb;
+  padding: 20px;
+  margin: 0;
+}
+
+#about h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20pt;
+}
+
+#about h4 {
+  font-weight: bold;
+  padding-top: 30px;
+  font-size: 16pt;
+}
+
+#about h5 {
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+#about p {
+  font-size: 14px;
+}
+
+#about img {
+  border: 4px solid #ebebeb;
+  width: 320px;
+  height: 300px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+/*** EXPERIENCE ***/
+
+#experience {
+  height: 1000px;
+  background-color: #ebebeb;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  margin: 0;
+}
+
+#experience h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20pt;
+  height: 60px;
+  color: #4a0e1c;
+}
+
+.float-left {
+  float: left;
+  height: 300px;
+  width: 500px;
+}
+
+.float-right {
+  float: right;
+  height: 300px;
+  width: 500px;
+  margin-right: 100px;
+}
+
+#experience .half-width {
+  text-decoration: none;
+  color: #4a0e1c;
+}
+
+#experience img {
+  border: 4px solid #ebebeb;
+  width: 350px;
+  height: 200px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+
+/*** CONTACT ***/
+
+#contact {
+  height: 300px;
+  color: #ebebeb;
+  text-align: center;
+}
+
+
+footer h5 {
+  margin-top: 30px;
+  font-size: 18pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer p {
+  font-size: 14pt;
+}
+
+br {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}

@@ -1,0 +1,88 @@
+/*** BODY ***/
+
+body {
+font-family: 'Manrope', sans-serif;
+color: #c7d690;
+}
+
+/*** GRID ***/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/*** HEADER ***/
+
+header {
+  height: 700px;
+  background: url('../img/hero.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14pt;
+    color: #4a0e1c;
+    padding-left: 40px;
+}
+
+nav a:hover {
+  color: #05151a;
+}
+
+h1 {
+  font-size: 26pt;
+  color: #c49075;
+  margin-top: 0;
+  padding-top: 250px;
+}
+
+header p {
+  font-size: 14pt;
+  color: #ebebeb;
+  font-weight: 600;
+  width: 300px;
+}
+
+span {
+  color: #c7d690;
+}
+
+/*** ABOUT ***/
+
+#about {
+  height: 4000px;
+}
+
+/*** EXPERIENCE ***/
+
+#experience {
+  height: 1200px;
+}
+
+/*** CONTACT ***/
+
+#contact {
+  height: 1200px;
+}
